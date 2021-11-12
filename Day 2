@@ -1,0 +1,67 @@
+package com.HCL;
+
+
+/////Question 8 below///////////////////////////
+abstract class Animal {
+	
+
+	  void walk() {
+		System.out.println("I am walking");
+	}
+}
+
+class Dog extends Animal{
+	void eating() {
+		System.out.println("I am eating");
+	}
+	public void barking() {
+		System.out.println("I am barking");
+
+	}
+}
+///////////////////////End of Question 8...  include line 23 when running
+public class Day2 {
+
+// Function that prints middle
+// character of a string
+//
+//	   public static void main(String[] args) {
+//	      String s = new String("ABCDEf");
+//	      System.out.println(s);
+//	      int length = s.length();
+//	      int mid = length / 2;
+//	      s = (length % 2 != 0) ? (s.substring(0, mid) + s.substring(mid + 1, 
+//	      s.length())) : (s.substring(0, mid - 1) + s.substring(mid + 1, s.length()));
+//	      System.out.println(s);
+//	  }
+//	 //////////////////////////////////End of 2////////////////////
+//	   
+////	public static void main(String[] args) {
+////		
+////		
+////	}
+////	
+////		static void add(int...numbers) {
+////			int sum = 0;
+////			for(int num:numbers) {
+////				if(sum !=0) {
+////					System.out.print("+");
+////				}
+////				sum+=num;
+////				System.out.print(num);
+////			}
+////			System.out.println("="+sum);
+////		}
+//	
+//	///////////////End of Question 6 //////////////
+
+//////////Below is part of Question 8/////
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		d.walk();
+		d.eating();
+		d.barking();
+		
+	}
+	/////////////////////////////End of Question 8////
+}
